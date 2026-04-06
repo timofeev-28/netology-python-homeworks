@@ -1,6 +1,8 @@
 import os
+from logger import logger
 
 
+@logger("log_task_3.log")
 def read_files(files):
     """reads files and sorts them in ascending order"""
     files_list = []
