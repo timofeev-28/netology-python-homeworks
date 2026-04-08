@@ -23,6 +23,7 @@ __pycache__/
 .env.production.local
 
 # Логи и временные файлы
+*.log
 *.sqlite3
 *.db
 
